@@ -1,0 +1,42 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    color: navy;
+}
+
+p {
+    font-size: 18px;
+}
+
+ul, ol {
+    text-align: left;
+    display: inline-block;
+}
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+
+    body {
+        background-color: #e6f2ff;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    ul, ol {
+        text-align: center;
+    }
+
+}
